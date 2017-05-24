@@ -16,7 +16,7 @@ Non-bitmap files passed to the script will be ignored.
 |---|---|---|---|
 | s | folder or file | The current folder. | The source folder or file. |
 | d | folder | A folder named "resized" in the current folder. | The destination folder. |
-| w | string | "400 700 900 1100 1400 1700 2000 2300 2700" | The widths to resize the bitmaps to, separated by spaces. |
+| w | string | "400 700 900 1100 1400 1700 2000 2300 2700" | The widths to resize the bitmaps to, separated&nbsp;by&nbsp;spaces. |
 
 
 ## Usage
