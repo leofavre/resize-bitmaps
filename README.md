@@ -1,6 +1,6 @@
 # Scale Down Bitmaps
 
-Scales down one or more bitmaps proportionally to match specific widths, in pixels, using [ImageMagick](https://www.imagemagick.org/). Suitable for generating images to be used with [srcset and sizes](https://ericportis.com/posts/2014/srcset-sizes/).
+Scale down one or more bitmaps proportionally to match specific widths, in pixels, using [ImageMagick](https://www.imagemagick.org/). Suitable for generating images to be used with [srcset and sizes](https://ericportis.com/posts/2014/srcset-sizes/).
 
 Each resized file will have its new width appended to the original file name, for example, when reducing "cat.jpg" to 600px, the new file name will be "cat-600.jpg".
 
@@ -25,7 +25,7 @@ Non-bitmap files passed to the script will be ignored.
 $ brew install imagemagick
 ```
 
-**2.** Download Scale Down Bitmaps from the [GitHub repository]().
+**2.** Clone or download Scale Down Bitmaps from the [GitHub repository](https://github.com/leofavre/scale-down-bitmaps.git).
 
 **3.** Extract and save the file `scale-down.sh` to your project root.
 
