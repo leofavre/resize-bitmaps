@@ -1,0 +1,19 @@
+{
+  "name": "scale-down-bitmaps",
+  "version": "1.0.0-alpha",
+  "description": "Scales down one or more bitmaps proportionally to match specific widths, in pixels, using ImageMagick.",
+  "main": "scale-down-bitmaps.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leofavre/scale-down-bitmaps.git"
+  },
+  "author": "Leonardo Favre <leo@leofavre.com> (http://www.leofavre.com/)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/leofavre/scale-down-bitmaps/issues"
+  },
+  "homepage": "https://github.com/leofavre/scale-down-bitmaps#readme"
+}
