@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Scale down one or more bitmaps proportionally to match specific
+# Scales down one or more bitmaps proportionally to match specific
 # widths, in pixels, using ImageMagick.
 # 
 # Suitable for generating images to be used with srcset and sizes.
