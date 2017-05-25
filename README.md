@@ -3,7 +3,9 @@
 * [Parameters](#parameters)
 * [Usage](#usage)
 * [Examples](#examples)
-* [Known bugs](#known-bugs)
+* [Known Bugs](#known-bugs)
+
+---
 
 Scales down one or more bitmaps proportionally to match specific widths, in pixels, using [ImageMagick](https://www.imagemagick.org/).
 
