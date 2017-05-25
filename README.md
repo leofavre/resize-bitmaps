@@ -1,5 +1,10 @@
 # Scale Down Bitmaps
 
+* [Parameters](#parameters)
+* [Usage](#usage)
+* [Examples](#examples)
+* [Known bugs](#known-bugs)
+
 Scales down one or more bitmaps proportionally to match specific widths, in pixels, using [ImageMagick](https://www.imagemagick.org/).
 
 Suitable for generating images to be used with [srcset and sizes](https://ericportis.com/posts/2014/srcset-sizes/).
@@ -83,3 +88,7 @@ Process all bitmaps in the current folder with the widths passed as parameter an
 ```sh
 $ ./scale-down.sh -w "400 800 1200 1600"
 ```
+
+## Known Bugs
+
+Image size verification will fail on `gif` images, causing the script to scale up this format.
