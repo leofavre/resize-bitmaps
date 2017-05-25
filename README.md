@@ -93,4 +93,4 @@ $ ./scale-down.sh -w "400 800 1200 1600"
 
 ## Known Bugs
 
-Image size verification will fail on `gif` images, causing the script to scale up this format.
+Image size verification will fail on animated `gif` images, causing the script to scale up this format.
